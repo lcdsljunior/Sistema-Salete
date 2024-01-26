@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="../assets/painel.css" />
+  <link rel="shortcut icon" type="image/jpg" href="../assets/img/icons8-ônibus-16.png"/>
   <title>Painel</title>
 </head>
+
 <body>
   <header>
     <h1 id="logo">Logo aqui</h1>
@@ -21,7 +24,7 @@
         <p>1234</p>
       </div>
     </aside>
-    
+
     <div id="lado-direito">
       <h1>Olá João Pedro!</h1>
       <p>Acesse alguma das configurações</p>
@@ -73,4 +76,5 @@
   </div>
   <script src="../assets/js/modal.js"></script>
 </body>
+
 </html>

@@ -4,6 +4,7 @@ include("conexao.php");
 
 $email = $_POST['email'];
 $senha = $_POST['senha'];
+$nome =  $_POST['nome'];
 
 $sql = "SELECT * FROM `user` WHERE `Email` = '$email'";
 $result = $conn->query($sql) or die("Não foi possível continuar");
@@ -13,7 +14,7 @@ if ($result->num_rows > 0) {
     $senhaArmazenada = $row['Senha'];
 
     if (password_verify($senha, $senhaArmazenada)) {
-        header("Location: ../pages/painel.html");
+        header("Location: ../pages/painel.php");
         exit();
     }
 }

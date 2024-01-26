@@ -5,12 +5,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../assets/style.css" />
-    <title>Nome da empresa</title>
+    <link rel="shortcut icon" type="image/jpg" href="../assets/img/icons8-ônibus-16.png"/>
+    <title>Verônica Salete LTDA</title>
 </head>
 
 <body>
     <main>
-        <form action="/Salete/controllers/login.php" method="post" autocomplete="off">
+        <form action="../controllers/login.php" method="post" autocomplete="off">
             <h1>Login</h1>
             <label for="">Email</label>
             <input type="email" name="email" placeholder="Digite seu email" required />
