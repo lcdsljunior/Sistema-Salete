@@ -17,7 +17,7 @@
     <aside>
       <div id="user-conectado">
         <p id="conectado">Usuário conectado</p>
-        <p>João Pedro Maciel</p>
+        <p>João Pedro Maciel - teste</p>
       </div>
       <div>
         <p>Cadastro ID</p>
