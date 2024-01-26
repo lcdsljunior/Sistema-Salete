@@ -1,0 +1,280 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,400;1,600&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 100vh;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+header {
+  width: 100%;
+  height: 70px;
+  background-color: #a9c9f2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
+
+#logo {
+  color: #3e81ee;
+}
+
+aside {
+  width: 200px;
+  height: 100vh;
+  background-color: #dbdbdb;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+#conectado {
+  font-weight: bold;
+  color: #45be45;
+  font-size: 1.3rem;
+}
+
+#user-conectado {
+  margin-top: 2rem;
+}
+
+p {
+  color: #7c8181;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: #3e81ee;
+  font-size: 1.2rem;
+  font-weight: bold;
+  transition-duration: 0.3s;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+.aside-section {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  align-items: flex-end;
+}
+
+.title {
+  color: #3e81ee;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  margin: 0px 50px;
+  width: 100%;
+}
+
+#lado-direito {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  margin-bottom: 1rem;
+}
+
+#cadastro-section {
+  background: #dbdbdb;
+  height: 230px;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+#relatorios-section {
+  background: #dbdbdb;
+  height: 200px;
+  width: 100%;
+}
+
+#cadastro-usuario {
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #a3a5a5;
+  border-radius: 0.5rem;
+}
+
+#cadastro-funcionario {
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 0.5rem;
+  background-color: #a3a5a5;
+}
+
+img {
+  height: 150px;
+}
+
+button {
+  background: #7c8181;
+  border: none;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: bold;
+  height: 35px;
+  width: 230px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #3e81ee;
+}
+
+#modal-cadastrar-usuario {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 720px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+}
+
+#modal-cadastrar-funcionario {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 720px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+}
+
+#modal-cadastrar-usuario-container {
+  width: 400px;
+  height: 500px;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  display: none;
+}
+
+#modal-cadastrar-funcionario-container {
+  width: 400px;
+  height: 500px;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  display: none;
+}
+
+input {
+  width: 300px;
+  height: 45px;
+  border: none;
+  outline: none;
+  padding: 0 10px;
+  margin: 10px 0;
+  background-color: #dbdbdb;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 1rem;
+}
+
+input[type="submit"] {
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: 600;
+  color: #7c8181;
+  font-size: 1rem;
+}
+
+input[type="submit"]:hover {
+  background-color: #3e81ee;
+  color: #ffffff;
+}
+
+#closeModal {
+  background: red;
+  width: 150px;
+}
+
+#closeModal:hover {
+  filter: brightness(0.6);
+}
+
+#closeModalFuncionario {
+  background: red;
+  width: 150px;
+}
+
+#closeModalFuncionario:hover {
+  filter: brightness(0.6);
+}
+
+label {
+  font-weight: 600;
+  color: #7c8181;
+  position: relative;
+  right: 7.8rem;
+  top: 0.8rem;
+}
+
+@media (min-width: 768px) {
+  /* Adicionando uma media query para telas maiores */
+  .aside-section {
+    flex-direction: row;
+  }
+
+  #lado-direito {
+    margin-left: 20px; /* Adapte conforme necessário */
+  }
+}
